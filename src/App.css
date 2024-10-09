@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+.ImageSearch-container {
+  text-align: center; 
+  padding: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 10px 20px;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  margin-top: 20px;
+}
+
+.image-item {
+  margin: 10px;
+  border-radius: 8px; 
+  width: 200px; 
+  height: auto; 
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px; 
+}
+
+.todolist-container,
+.image-search-container {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 400px;
+  height: 500px; 
+  background-color: #f9f9f9; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
